@@ -129,5 +129,11 @@
 			<groupId>io.thorntail</groupId>
 			<artifactId>jsonb</artifactId>
 		</dependency>
+		
+		<dependency>
+			<groupId>io.thorntail</groupId>
+			<artifactId>arquillian</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 </project>
