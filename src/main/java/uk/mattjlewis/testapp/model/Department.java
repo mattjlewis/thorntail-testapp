@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp.model;
+package uk.mattjlewis.testapp.model;
 
 import java.util.List;
 

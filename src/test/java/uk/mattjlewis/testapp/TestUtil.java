@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp;
+package uk.mattjlewis.testapp;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;

@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp.services.jpa;
+package uk.mattjlewis.testapp.services.jpa;
 
 import java.util.Date;
 import java.util.List;
@@ -10,7 +10,7 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import uk.mattjlewis.thorntail.testapp.model.BaseEntity;
+import uk.mattjlewis.testapp.model.BaseEntity;
 
 public class BaseEntityRepository {
 	public static <E extends BaseEntity> E create(EntityManager entityManager, E entity) {

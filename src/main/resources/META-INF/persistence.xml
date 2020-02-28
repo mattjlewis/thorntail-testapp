@@ -9,9 +9,9 @@
 		<jta-data-source>java:jboss/datasources/TestAppDataSource</jta-data-source>
 		
 		<!-- Entities -->
-		<class>uk.mattjlewis.thorntail.testapp.model.BaseEntity</class>
-		<class>uk.mattjlewis.thorntail.testapp.model.Department</class>
-		<class>uk.mattjlewis.thorntail.testapp.model.Employee</class>
+		<class>uk.mattjlewis.testapp.model.BaseEntity</class>
+		<class>uk.mattjlewis.testapp.model.Department</class>
+		<class>uk.mattjlewis.testapp.model.Employee</class>
 
 		<!-- <exclude-unlisted-classes>true</exclude-unlisted-classes> -->
 		<!-- <shared-cache-mode>NONE</shared-cache-mode> -->

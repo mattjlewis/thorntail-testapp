@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp.services.rest;
+package uk.mattjlewis.testapp.services.rest;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -23,6 +23,8 @@ import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.wildfly.swarm.jaxrs.JAXRSArchive;
+
+import uk.mattjlewis.testapp.services.rest.HelloWorldResource;
 
 @SuppressWarnings("static-method")
 @RunWith(Arquillian.class)

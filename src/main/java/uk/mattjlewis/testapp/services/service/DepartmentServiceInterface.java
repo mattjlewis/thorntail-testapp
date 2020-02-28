@@ -1,9 +1,9 @@
-package uk.mattjlewis.thorntail.testapp.services.service;
+package uk.mattjlewis.testapp.services.service;
 
 import java.util.List;
 
-import uk.mattjlewis.thorntail.testapp.model.Department;
-import uk.mattjlewis.thorntail.testapp.model.Employee;
+import uk.mattjlewis.testapp.model.Department;
+import uk.mattjlewis.testapp.model.Employee;
 
 public interface DepartmentServiceInterface {
 	String getImplementation();

@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp.services.rest;
+package uk.mattjlewis.testapp.services.rest;
 
 import java.security.Principal;
 

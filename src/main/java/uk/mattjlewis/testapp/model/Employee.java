@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp.model;
+package uk.mattjlewis.testapp.model;
 
 import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.Access;

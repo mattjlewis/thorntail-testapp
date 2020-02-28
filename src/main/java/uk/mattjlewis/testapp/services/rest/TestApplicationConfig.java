@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp.services.rest;
+package uk.mattjlewis.testapp.services.rest;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -9,10 +9,10 @@ import javax.ws.rs.core.Application;
 
 import org.eclipse.microprofile.auth.LoginConfig;
 
-import uk.mattjlewis.thorntail.testapp.services.rest.exception.EntityNotFoundMapper;
-import uk.mattjlewis.thorntail.testapp.services.rest.exception.NoResultMapper;
-import uk.mattjlewis.thorntail.testapp.services.rest.exception.PersistenceExceptionMapper;
-import uk.mattjlewis.thorntail.testapp.services.rest.exception.TransactionRollbackMapper;
+import uk.mattjlewis.testapp.services.rest.exception.EntityNotFoundMapper;
+import uk.mattjlewis.testapp.services.rest.exception.NoResultMapper;
+import uk.mattjlewis.testapp.services.rest.exception.PersistenceExceptionMapper;
+import uk.mattjlewis.testapp.services.rest.exception.TransactionRollbackMapper;
 
 @ApplicationScoped
 @ApplicationPath("/rest")

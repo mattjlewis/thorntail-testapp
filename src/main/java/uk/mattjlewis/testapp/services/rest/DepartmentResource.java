@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp.services.rest;
+package uk.mattjlewis.testapp.services.rest;
 
 import java.net.URI;
 
@@ -26,9 +26,9 @@ import org.eclipse.microprofile.openapi.annotations.media.Schema;
 import org.eclipse.microprofile.openapi.annotations.parameters.Parameter;
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 
-import uk.mattjlewis.thorntail.testapp.model.Department;
-import uk.mattjlewis.thorntail.testapp.model.Employee;
-import uk.mattjlewis.thorntail.testapp.services.service.DepartmentServiceInterface;
+import uk.mattjlewis.testapp.model.Department;
+import uk.mattjlewis.testapp.model.Employee;
+import uk.mattjlewis.testapp.services.service.DepartmentServiceInterface;
 
 @Path("department")
 @Produces(MediaType.APPLICATION_JSON)

@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp.services.rest.exception;
+package uk.mattjlewis.testapp.services.rest.exception;
 
 import javax.persistence.PersistenceException;
 import javax.ws.rs.core.Response;

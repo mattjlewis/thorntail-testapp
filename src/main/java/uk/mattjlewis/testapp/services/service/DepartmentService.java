@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp.services.service;
+package uk.mattjlewis.testapp.services.service;
 
 import java.util.Date;
 import java.util.List;
@@ -11,9 +11,9 @@ import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 
-import uk.mattjlewis.thorntail.testapp.model.Department;
-import uk.mattjlewis.thorntail.testapp.model.Employee;
-import uk.mattjlewis.thorntail.testapp.services.jpa.BaseEntityRepository;
+import uk.mattjlewis.testapp.model.Department;
+import uk.mattjlewis.testapp.model.Employee;
+import uk.mattjlewis.testapp.services.jpa.BaseEntityRepository;
 
 @ApplicationScoped
 @Default

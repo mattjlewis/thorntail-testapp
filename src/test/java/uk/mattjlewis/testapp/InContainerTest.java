@@ -1,4 +1,4 @@
-package uk.mattjlewis.thorntail.testapp;
+package uk.mattjlewis.testapp;
 
 import static org.junit.Assert.assertNotNull;
 
