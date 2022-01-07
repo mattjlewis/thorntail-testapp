@@ -23,7 +23,7 @@
 		<failOnMissingWebXml>false</failOnMissingWebXml>
 
 		<version.thorntail>2.6.0.Final</version.thorntail>
-		<version.h2>1.4.200</version.h2>
+		<version.h2>2.0.206</version.h2>
 	</properties>
 
 	<dependencyManagement>
